@@ -180,6 +180,8 @@ message WdlCommandOptions {
   // Implementation of `result_events` postponed pending use cases
   // repeated string result_events = 10;
   optional string completion_event = 11;
+  
+  optional bool execute_statically = 12;
 }
 
 message WdlEventOptions {
